@@ -1,0 +1,10 @@
+[2024-02-16 10:36:30,797] [INFO] [werkzeug] : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.61.242:5000
+[2024-02-16 10:36:30,798] [INFO] [werkzeug] : [33mPress CTRL+C to quit[0m
+[2024-02-16 10:36:39,178] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 10:36:39] "[33mGET /api HTTP/1.1[0m" 404 -
+[2024-02-16 10:36:41,416] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 10:36:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-02-16 10:36:47,487] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 10:36:47] "GET /predictdata HTTP/1.1" 200 -
+[2024-02-16 10:37:09,085] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 10:37:09] "POST /predictdata HTTP/1.1" 200 -
+[2024-02-16 10:37:09,325] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 10:37:09] "POST /predictdata HTTP/1.1" 200 -
