@@ -1,0 +1,26 @@
+[2024-02-16 11:03:27,261] [INFO] [werkzeug] : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.61.242:5000
+[2024-02-16 11:03:27,261] [INFO] [werkzeug] : [33mPress CTRL+C to quit[0m
+[2024-02-16 11:03:51,396] [ERROR] [application] : Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\OneDrive\Desktop\Machine Learning\ML-Project\venv\lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ASUS\OneDrive\Desktop\Machine Learning\ML-Project\venv\lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ASUS\OneDrive\Desktop\Machine Learning\ML-Project\venv\lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ASUS\OneDrive\Desktop\Machine Learning\ML-Project\venv\lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "application.py", line 32, in predict_datapoint
+    reading_score=float(request.form.get('writing_score')),
+TypeError: float() argument must be a string or a number, not 'NoneType'
+[2024-02-16 11:03:51,400] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 11:03:51] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2024-02-16 11:14:45,786] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 11:14:45] "POST /predictdata HTTP/1.1" 200 -
+[2024-02-16 11:15:19,699] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 11:15:19] "POST /predictdata HTTP/1.1" 200 -
+[2024-02-16 11:20:52,872] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 11:20:52] "GET /predictdata HTTP/1.1" 200 -
+[2024-02-16 11:21:24,173] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 11:21:24] "GET /predictdata HTTP/1.1" 200 -
+[2024-02-16 11:22:30,335] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 11:22:30] "GET /predictdata HTTP/1.1" 200 -
+[2024-02-16 11:22:54,538] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 11:22:54] "POST /predictdata HTTP/1.1" 200 -
+[2024-02-16 11:23:02,001] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 11:23:02] "POST /predictdata HTTP/1.1" 200 -
