@@ -2,3 +2,4 @@
 [2024-02-16 08:05:21,633] [INFO] [werkzeug] :  * Debugger PIN: 857-810-545
 [2024-02-16 08:05:22,769] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 08:05:22] "POST /predictdata HTTP/1.1" 200 -
 [2024-02-16 08:05:48,098] [INFO] [werkzeug] : 127.0.0.1 - - [16/Feb/2024 08:05:48] "POST /predictdata HTTP/1.1" 200 -
+[2024-02-16 08:15:54,381] [INFO] [werkzeug] :  * Detected change in 'C:\\Users\\ASUS\\OneDrive\\Desktop\\Machine Learning\\ML-Project\\application.py', reloading

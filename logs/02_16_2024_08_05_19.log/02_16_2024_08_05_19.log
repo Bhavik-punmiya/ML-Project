@@ -4,3 +4,5 @@
  * Running on http://192.168.61.242:5000
 [2024-02-16 08:05:19,295] [INFO] [werkzeug] : [33mPress CTRL+C to quit[0m
 [2024-02-16 08:05:19,298] [INFO] [werkzeug] :  * Restarting with stat
+[2024-02-16 08:15:54,750] [INFO] [werkzeug] :  * Restarting with stat
+[2024-02-16 08:16:10,046] [INFO] [werkzeug] :  * Restarting with stat
